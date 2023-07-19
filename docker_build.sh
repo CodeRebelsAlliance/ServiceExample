@@ -12,6 +12,6 @@
 #	docker build -t songrequests:0.9 .
 #fi
 
-docker build -t songrequests:latest .
+docker build -t serviceexample:latest .
 
 

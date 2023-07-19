@@ -12,4 +12,4 @@
 #  docker run -d -p 5555:5000 -e SERVER_VERSION=test --name songrequests_branch songrequests:0.9
 #fi
 
-docker run -d -p 5000:5000 -p 2222:22 -v json-data:/app/data -v music-data:/app/MusicDownloads --name songrequests songrequests:latest
+docker run -d -p 5555:5000 --name serviceexample serviceexample:latest
